@@ -1,0 +1,43 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(181, 181, 238); 
+}
+
+.board-container{
+    display: flex;
+    justify-content: center;
+}
+
+.board{
+    width: 435px;
+    height: 435px;    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.square{
+    background-color: rgb(181, 181, 238);
+    box-sizing: border-box;
+}
+
+.image{
+    box-sizing: border-box;
+    width: 20px;
+    height: auto;
+}
+
+.game-state-container{
+    display: flex;
+    justify-content: center;
+}
+
+.reset-button-container{
+    display: flex;
+    justify-content: center;
+}
+
+.reset-button{
+    height: 75px;
+    width: 200px;
+    font-size: larger;
+}

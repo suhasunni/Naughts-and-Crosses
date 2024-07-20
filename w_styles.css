@@ -1,0 +1,53 @@
+/*WELCOME PAGE*/
+*{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(181, 181, 238); 
+}
+
+h1{
+    text-align: center;
+}
+
+.form-container{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size:x-large;
+}
+
+.new-player{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.lb-player-name{
+    padding-bottom: 15px;
+}
+
+#player1{
+    padding-left: 300px;
+    padding-top: 100px;
+}
+
+#player2{
+    padding-right: 300px;
+    padding-top: 100px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+
+.b-start-game{
+    padding: 40px 75px;
+    border-radius: 10px;
+}
+
+a .b-start-game {
+    font-size: x-large;
+    text-decoration: none;
+    color: black;
+}
